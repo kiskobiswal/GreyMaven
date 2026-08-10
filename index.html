@@ -1,1 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GreyMaven — Institutional-grade strategies for the investor in between</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<div class="top-bar">
+  <div class="wrap">
+    <span>SEC Registered Investment Adviser · Member SIPC</span>
+    <span>Client Login</span>
+  </div>
+</div>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">
+      <span class="logo-name">GreyMaven</span>
+      <span class="logo-sub">Capital Partners</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html#strategies">Strategies</a>
+      <a href="index.html#approach">Approach</a>
+      <a href="index.html#positioning">Who We Serve</a>
+      <a href="index.html#fees">Fee Structure</a>
+      <a href="index.html#faq">Insights</a>
+    </div>
+    <a href="#" class="nav-cta">Request Access</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">For the investor institutions overlook</div>
+    <h1>Institutional strategy. <em>Without the institutional minimum.</em></h1>
+    <p class="sub">Hedge funds and private funds are built for eight-figure allocators. Retail funds are built for the smallest, most conservative accounts. GreyMaven is built for what's in between — investors who want real strategy and real risk, and can't get either.</p>
+    <div class="hero-ctas">
+      <button class="btn-primary">Request Access</button>
+      <button class="btn-secondary">View Strategies</button>
+    </div>
+    <div class="trust-row">
+      <span><span class="dot"></span>$5,000–$25,000 minimums, not millions</span>
+      <span><span class="dot"></span>Flat, disclosed fee structure</span>
+      <span><span class="dot"></span>SIPC insured up to $500k</span>
+    </div>
+  </div>
+</section>
+
+<section class="gap-section" id="positioning">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>There's a gap in the market. We built for it.</h2>
+      <p>Most investors are sorted into one of two boxes. Neither one fits the investor with $10,000–$250,000 who wants to take real, informed risk.</p>
+    </div>
+    <div class="gap-grid">
+      <div class="gap-col">
+        <div class="gap-col-label">The Institutional Tier</div>
+        <h3>Hedge funds &amp; private funds</h3>
+        <p>Seven-figure minimums, multi-year lock-ups, and access limited to accredited institutions. Built for allocators, not individuals.</p>
+      </div>
+      <div class="gap-col us">
+        <div class="gap-col-label">GreyMaven</div>
+        <h3>Strategy without the gatekeeping</h3>
+        <p>The same asset classes and disciplined strategy institutions use — crypto, forex, real estate, global equities — sized for a $10K–$250K account.</p>
+      </div>
+      <div class="gap-col">
+        <div class="gap-col-label">The Retail Tier</div>
+        <h3>Basic index funds &amp; mutual funds</h3>
+        <p>Accessible, but narrow. Built to be safe for everyone, which means built to take almost no risk and offer almost no strategy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fee-section" id="fees">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>See what you actually keep</h2>
+      <p>Institutional funds charge "2 and 20" — 2% of assets every year, plus 20% of any gains. GreyMaven charges one flat, disclosed fee. Compare the difference on your own account size.</p>
+    </div>
+
+    <div class="fee-card">
+      <div class="fee-toggle">
+        <div class="fee-toggle-inner">
+          <button class="fee-btn active" data-amount="10000">$10,000</button>
+          <button class="fee-btn" data-amount="50000">$50,000</button>
+          <button class="fee-btn" data-amount="100000">$100,000</button>
+        </div>
+      </div>
+
+      <div class="fee-compare">
+        <div class="fee-col them">
+          <div class="fee-col-label">Typical Hedge Fund</div>
+          <div class="fee-amount mono" id="them-amount">$425</div>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="them-bar" style="width: 100%;"></div></div>
+          <div class="fee-note">2% management + 20% of gains</div>
+        </div>
+        <div class="fee-col us">
+          <div class="fee-col-label">GreyMaven</div>
+          <div class="fee-amount mono" id="us-amount">$25</div>
+          <div class="fee-bar-track"><div class="fee-bar-fill" id="us-bar" style="width: 6%;"></div></div>
+          <div class="fee-note">Flat 0.25%, no performance cut</div>
+        </div>
+      </div>
+
+      <div class="fee-result">
+        You keep <span class="mono" id="savings">$400 more</span> per year on a <span class="mono" id="base-amount">$10,000</span> account — before compounding.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how-section" id="approach">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>How access works</h2>
+      <p>We built the process to take minutes, not a multi-week subscription document.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">01</span>
+        <h3>Tell us your objective</h3>
+        <p>Growth, income, or diversification — and how much risk you're actually willing to carry.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">02</span>
+        <h3>We match a strategy</h3>
+        <p>One fund, or a mix across asset classes — sized to accounts well below institutional minimums.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">03</span>
+        <h3>We manage it actively</h3>
+        <p>Ongoing rebalancing and risk monitoring — the discipline institutional desks use, applied to your account.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="snapshot-section" id="plans">
+  <div class="wrap snapshot-grid">
+    <div>
+      <div class="section-head" style="margin-bottom: 28px;">
+        <h2>What's actually included</h2>
+        <p>No tiers, no "premium" version with the real strategy locked behind a higher fee.</p>
+      </div>
+      <div class="plan-list">
+        <div class="plan-item"><span class="plan-check"></span><span>Every client pays the same flat fee</span></div>
+        <div class="plan-item"><span class="plan-check"></span><span>Minimums from $5,000, not seven figures</span></div>
+        <div class="plan-item"><span class="plan-check"></span><span>Active rebalancing and risk monitoring, included</span></div>
+        <div class="plan-item"><span class="plan-check"></span><span>No multi-year lock-up periods</span></div>
+        <div class="plan-item"><span class="plan-check"></span><span>A real portfolio team, not just a chatbot</span></div>
+      </div>
+    </div>
+    <div class="fee-card" style="text-align: left;">
+      <div class="fee-col-label" style="margin-bottom: 20px;">Why this gap exists</div>
+      <p style="color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 16px;">Institutional funds are built for allocators with tens of millions — high minimums and long lock-ups only make economic sense at that scale.</p>
+      <p style="color: var(--ink-soft); font-size: 0.95rem;">Retail funds go the other way, built to be safe defaults for the smallest accounts. Almost nothing is built deliberately for the account in between. That's the account we built GreyMaven for.</p>
+    </div>
+  </div>
+</section>
+
+<section class="funds-section" id="strategies">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Six strategies. One fee structure.</h2>
+      <p>Each fund is run the way an institutional desk would run it — sized for a mid-size account.</p>
+    </div>
+    <div class="funds-grid">
+      <a href="global-index-fund.html" class="fund-card">
+        <div class="fund-tag equities">Equities</div>
+        <h3>Global Index Fund</h3>
+        <p>Broad exposure to global stock markets through disciplined index tracking, built for long-term growth.</p>
+        <div class="fund-meta">
+          <span><span class="fund-meta-label">Target return</span><span class="mono">7.2%/yr</span></span>
+          <span><span class="fund-meta-label">Risk</span><span class="mono">Moderate</span></span>
+        </div>
+        <span class="fund-link">View strategy</span>
+      </a>
+      <a href="steady-income-fund.html" class="fund-card">
+        <div class="fund-tag bonds">Bonds</div>
+        <h3>Steady Income Fund</h3>
+        <p>Government and investment-grade corporate bonds for capital preservation and steady income.</p>
+        <div class="fund-meta">
+          <span><span class="fund-meta-label">Target return</span><span class="mono">4.1%/yr</span></span>
+          <span><span class="fund-meta-label">Risk</span><span class="mono">Low</span></span>
+        </div>
+        <span class="fund-link">View strategy</span>
+      </a>
+      <a href="digital-assets-fund.html" class="fund-card">
+        <div class="fund-tag crypto">Crypto</div>
+        <h3>Digital Assets Fund</h3>
+        <p>Regulated exposure to major cryptocurrencies, without needing your own wallet or exchange account.</p>
+        <div class="fund-meta">
+          <span><span class="fund-meta-label">Target return</span><span class="mono">Variable</span></span>
+          <span><span class="fund-meta-label">Risk</span><span class="mono">High</span></span>
+        </div>
+        <span class="fund-link">View strategy</span>
+      </a>
+      <a href="currency-markets-fund.html" class="fund-card">
+        <div class="fund-tag forex">Forex</div>
+        <h3>Currency Markets Fund</h3>
+        <p>Diversified exposure to major global currency pairs, actively managed to reduce single-currency risk.</p>
+        <div class="fund-meta">
+          <span><span class="fund-meta-label">Target return</span><span class="mono">3.8%/yr</span></span>
+          <span><span class="fund-meta-label">Risk</span><span class="mono">Moderate</span></span>
+        </div>
+        <span class="fund-link">View strategy</span>
+      </a>
+      <a href="property-income-fund.html" class="fund-card">
+        <div class="fund-tag reit">Real Estate</div>
+        <h3>Property Income Fund</h3>
+        <p>A managed basket of real estate investment trusts, giving you property exposure without buying property.</p>
+        <div class="fund-meta">
+          <span><span class="fund-meta-label">Target return</span><span class="mono">5.6%/yr</span></span>
+          <span><span class="fund-meta-label">Risk</span><span class="mono">Moderate</span></span>
+        </div>
+        <span class="fund-link">View strategy</span>
+      </a>
+      <a href="all-in-one-fund.html" class="fund-card">
+        <div class="fund-tag balanced">Balanced</div>
+        <h3>All-in-One Fund</h3>
+        <p>A ready-made mix across stocks, bonds, and cash — for investors who want one fund, not a portfolio to manage.</p>
+        <div class="fund-meta">
+          <span><span class="fund-meta-label">Target return</span><span class="mono">6.0%/yr</span></span>
+          <span><span class="fund-meta-label">Risk</span><span class="mono">Low–Moderate</span></span>
+        </div>
+        <span class="fund-link">View strategy</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="faq-section" id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Questions clients actually ask</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item open">
+        <div class="faq-q"><span>Is my money safe?</span><span class="icon">+</span></div>
+        <div class="faq-a">Your account is protected by SIPC insurance up to $500,000. Investments carry market risk, but your cash and securities are protected against firm failure.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>What's the actual fee?</span><span class="icon">+</span></div>
+        <div class="faq-a">A flat 0.25% per year on your account balance. No performance fee, no trading commissions, no account maintenance charges.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Do I need to be an accredited investor?</span><span class="icon">+</span></div>
+        <div class="faq-a">No. Our funds are registered and open to any investor who meets the fund-specific minimum — most of which start well below what accredited-only vehicles require.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q"><span>Can I withdraw whenever I want?</span><span class="icon">+</span></div>
+        <div class="faq-a">Yes. There's no multi-year lock-up. Withdrawals typically settle within three business days.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="wrap">
+    <h2>You don't need eight figures to invest like it.</h2>
+    <p>Request access and hear back from a member of our team within one business day.</p>
+    <button class="btn-primary">Request Access</button>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 GreyMaven Capital Partners. Member SIPC.</span>
+    <span>Investing involves risk, including possible loss of principal.</span>
+  </div>
+</footer>
+
+<script>
+  const feeData = {
+    10000: { them: 425, us: 25 },
+    50000: { them: 2125, us: 125 },
+    100000: { them: 4250, us: 250 }
+  };
+
+  document.querySelectorAll('.fee-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.fee-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const amount = btn.dataset.amount;
+      const data = feeData[amount];
+      document.getElementById('them-amount').textContent = '$' + data.them.toLocaleString();
+      document.getElementById('us-amount').textContent = '$' + data.us.toLocaleString();
+      document.getElementById('base-amount').textContent = '$' + Number(amount).toLocaleString();
+      const savings = data.them - data.us;
+      document.getElementById('savings').textContent = '$' + savings.toLocaleString() + ' more';
+      document.getElementById('them-bar').style.width = '100%';
+      document.getElementById('us-bar').style.width = Math.max(4, (data.us / data.them) * 100) + '%';
+    });
+  });
+
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.parentElement;
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+</script>
+
+</body>
+</html>
